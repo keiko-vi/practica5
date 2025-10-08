@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN">
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Inicio</title>
+  </head>
+
+  <!-- Página dividida en 2 columnas:
+       - Izquierda: menú + pie
+       - Derecha: contenido principal -->
+  <frameset cols="20%,80%">
+
+    <!-- Columna izquierda dividida en 2 filas -->
+    <frameset rows="85%,15%">
+      <frame src="menu.html" noresize>
+      <frame src="pie.html" noresize scrolling="no">
+    </frameset>
+
+    <!-- Columna derecha -->
+    <frame src="derecha.html" name= "contenido" noresize>
+
+  </frameset>
+</html>
